@@ -30,3 +30,8 @@ for exploring the Clojure language. It includes:
 * an interactive repl for working with the lab exercises
 * solutions with passing tests 
 * up-to-date versions of Clojure, contrib, incanter, compojure and other libraries to explore
+
+# learning Clojure language
+> for plumber...
+
+* clojure basic concept 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.clojure/test.generative:0.1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/test.generative/0.1.2/test.generative-0.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

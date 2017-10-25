@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: hsqldb:1.8.0.10">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
