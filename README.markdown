@@ -31,7 +31,7 @@ for exploring the Clojure language. It includes:
 * solutions with passing tests 
 * up-to-date versions of Clojure, contrib, incanter, compojure and other libraries to explore
 
-# learning Clojure language
+# Learning Clojure language
 > for plumber...
 
 * clojure basic concept 
