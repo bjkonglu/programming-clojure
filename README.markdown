@@ -34,4 +34,4 @@ for exploring the Clojure language. It includes:
 # Learning Clojure language
 > for plumber...
 
-* clojure basic concept 
+* clojure basic concept [参考文档](docs/clojure-basic-concept.md) 
