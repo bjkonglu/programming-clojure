@@ -41,7 +41,7 @@
 1. (defn name doc-string? attr-map? [params*] body)
 2. (defn name doc-string? attr-map? ([params*] body)+)
 3. (defn name doc-string? ([params*] body)+ atrr-map?)
-    - [attr-map] (docs/clojure-flow-control.md)：表示关联到函数对象上的元数据。
+    - [attr-map](docs/clojure-flow-control.md)：表示关联到函数对象上的元数据。
     - 2中表示函数可以接受多组参数列表和函数主题。
     - 参数列表中包含一个*&*号，可以创建一个具有可变元素的函数。Clojure会把所有剩余的参数放进一个序列中，并绑定到&号后面的那个名称上。
 
