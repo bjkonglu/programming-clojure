@@ -66,4 +66,15 @@ usage: (*fn* [params*] body)
 4. **惯例**: 在一个Clojure源文件的顶部，我们会使用*ns*宏来*import* Java类和*require*命名空间。
     - usage: (ns name& reference) 其中reference部分则可以包含:import、:require和:use
     - example: (ns example.exploring (:require [clojure.string :as str]) (:import (java.io.File)))
+## 调用Java
+> Clojure提供了简单、直接的语法用来调用Java代码，包含：*创建对象*、*调用方法*、访问*静态方法*和*字段*。
+
+1. *创建对象*：
+    - usage: (new classname)
+2. *调用方法*：
+    - usage: (. class-or-instance member-symbol & args) | (. class-or-instance (member-symbol & args))
+3. *导入Java类*：
+    - usage: (import [& import-lists]) 
+    - 说明：import-list => (package-symbol & class-name-symbols)
+    - example: (import '(java.util Random) '(java.text MessageFormat))
 
