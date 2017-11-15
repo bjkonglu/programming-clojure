@@ -36,3 +36,4 @@ for exploring the Clojure language. It includes:
 
 * [clojure basic concept](docs/clojure-basic-concept.md) 
 * [clojure flow control](docs/clojure-flow-control.md)
+* [clojure seq](doc/clojure-seq.md)
