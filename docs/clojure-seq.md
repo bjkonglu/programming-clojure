@@ -85,4 +85,32 @@ Usage: (for [binding-form coll-exps filter-exps? ...] exps)
 (for [n [1 2 3 4 5] :when (even? n)] n)
 ```
 
+## Java序列化
+> 在Java世界中，包含了以下内容：容器API，正则表达式，文件系统的遍历，XML处理以及关系型数据库结果集
+
+### 序列化Java容器
+
+
+### 序列化正则表达式
+usage: (re-seq regexp string)
+
+### 序列化文件系统
+```
+Clojure通过file-seq提供了一个深度优化的遍历方式。
+```
+
+### 序列化流
+```
+我们可以使用line-seq将Java的Reader以行的方式进行序列化。clojure.java.io库提供了一个reader函数，能够从流、文件、URL或URI返回一个Reader.
+Reader需要被明确关闭，所以创建Reader时，需要包含在一个with-open中。
+```
+
+### 序列化XML
+```
+clojure.xml/parse函数能解析XML文件、流或者URL，并以Clojure映射表的形式，返回数据的树形结构，嵌入在其内部的那些向量代表了子节点。
+```
+
+## 调用特定于结构的函数
+
+### 列表函数
 
